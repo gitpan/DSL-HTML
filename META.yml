@@ -1,0 +1,47 @@
+---
+abstract: 'Declarative DSL(domain specific language) for writing HTML'
+author:
+  - 'Chad Granum <exodist7@gmail.com>'
+build_requires:
+  Fennec: 2.010
+  Fennec::Declare: 1.001
+  Mock::Quick: 1.106
+configure_requires:
+  Module::Build: 0.40
+dynamic_config: 1
+generated_by: 'Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: DSL-HTML
+provides:
+  DSL::HTML:
+    file: lib/DSL/HTML.pm
+    version: 0.001
+  DSL::HTML::Rendering:
+    file: lib/DSL/HTML/Rendering.pm
+    version: 0
+  DSL::HTML::Tag:
+    file: lib/DSL/HTML/Tag.pm
+    version: 0
+  DSL::HTML::Template:
+    file: lib/DSL/HTML/Template.pm
+    version: 0
+  DSL::HTML::Text:
+    file: lib/DSL/HTML/Text.pm
+    version: 0
+requires:
+  Carp: 0
+  Devel::Declare::Parser: 0.017
+  Devel::Declare::Parser::Fennec: 0.005
+  Exporter::Declare: 0.113
+  Exporter::Declare::Magic: 0.107
+  Scalar::Util: 0
+  perl: v5.10.0
+resources:
+  bugtracker: http://github.com/exodist/Fennec/issues
+  homepage: http://exodist.github.io/Fennec/
+  license: http://dev.perl.org/licenses/
+  repository: http://github.com/exodist/Fennec
+version: 0.001
