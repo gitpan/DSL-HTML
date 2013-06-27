@@ -18,7 +18,7 @@ name: DSL-HTML
 provides:
   DSL::HTML:
     file: lib/DSL/HTML.pm
-    version: 0.003
+    version: 0.004
   DSL::HTML::Compiler:
     file: lib/DSL/HTML/Compiler.pm
     version: 0
@@ -53,4 +53,4 @@ resources:
   homepage: http://exodist.github.io/Fennec/
   license: http://dev.perl.org/licenses/
   repository: http://github.com/exodist/Fennec
-version: 0.003
+version: 0.004

@@ -41,7 +41,7 @@
    "provides" : {
       "DSL::HTML" : {
          "file" : "lib/DSL/HTML.pm",
-         "version" : "0.003"
+         "version" : "0.004"
       },
       "DSL::HTML::Compiler" : {
          "file" : "lib/DSL/HTML/Compiler.pm",
@@ -85,5 +85,5 @@
          "url" : "http://github.com/exodist/Fennec"
       }
    },
-   "version" : "0.003"
+   "version" : "0.004"
 }
