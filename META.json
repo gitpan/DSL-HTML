@@ -4,7 +4,7 @@
       "Chad Granum <exodist7@gmail.com>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Module::Build version 0.4003, CPAN::Meta::Converter version 2.131560",
    "license" : [
       "perl_5"
    ],
@@ -41,49 +41,42 @@
    "provides" : {
       "DSL::HTML" : {
          "file" : "lib/DSL/HTML.pm",
-         "version" : "0.004"
+         "version" : "0.005"
       },
       "DSL::HTML::Compiler" : {
-         "file" : "lib/DSL/HTML/Compiler.pm",
-         "version" : 0
+         "file" : "lib/DSL/HTML/Compiler.pm"
       },
       "DSL::HTML::Parser" : {
-         "file" : "lib/DSL/HTML/Parser.pm",
-         "version" : 0
+         "file" : "lib/DSL/HTML/Parser.pm"
       },
       "DSL::HTML::Rendering" : {
-         "file" : "lib/DSL/HTML/Rendering.pm",
-         "version" : 0
+         "file" : "lib/DSL/HTML/Rendering.pm"
       },
       "DSL::HTML::STL" : {
-         "file" : "lib/DSL/HTML/STL.pm",
-         "version" : 0
+         "file" : "lib/DSL/HTML/STL.pm"
       },
       "DSL::HTML::Tag" : {
-         "file" : "lib/DSL/HTML/Tag.pm",
-         "version" : 0
+         "file" : "lib/DSL/HTML/Tag.pm"
       },
       "DSL::HTML::Template" : {
-         "file" : "lib/DSL/HTML/Template.pm",
-         "version" : 0
+         "file" : "lib/DSL/HTML/Template.pm"
       },
       "DSL::HTML::Text" : {
-         "file" : "lib/DSL/HTML/Text.pm",
-         "version" : 0
+         "file" : "lib/DSL/HTML/Text.pm"
       }
    },
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
-         "web" : "http://github.com/exodist/Fennec/issues"
+         "web" : "http://github.com/exodist/DSL-HTML/issues"
       },
-      "homepage" : "http://exodist.github.io/Fennec/",
+      "homepage" : "http://github.com/exodist/DSL-HTML",
       "license" : [
          "http://dev.perl.org/licenses/"
       ],
       "repository" : {
-         "url" : "http://github.com/exodist/Fennec"
+         "url" : "http://github.com/exodist/DSL-HTML"
       }
    },
-   "version" : "0.004"
+   "version" : "0.005"
 }

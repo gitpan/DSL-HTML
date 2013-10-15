@@ -9,7 +9,7 @@ build_requires:
 configure_requires:
   Module::Build: 0.40
 dynamic_config: 1
-generated_by: 'Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921'
+generated_by: 'Module::Build version 0.4003, CPAN::Meta::Converter version 2.131560'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -18,28 +18,21 @@ name: DSL-HTML
 provides:
   DSL::HTML:
     file: lib/DSL/HTML.pm
-    version: 0.004
+    version: 0.005
   DSL::HTML::Compiler:
     file: lib/DSL/HTML/Compiler.pm
-    version: 0
   DSL::HTML::Parser:
     file: lib/DSL/HTML/Parser.pm
-    version: 0
   DSL::HTML::Rendering:
     file: lib/DSL/HTML/Rendering.pm
-    version: 0
   DSL::HTML::STL:
     file: lib/DSL/HTML/STL.pm
-    version: 0
   DSL::HTML::Tag:
     file: lib/DSL/HTML/Tag.pm
-    version: 0
   DSL::HTML::Template:
     file: lib/DSL/HTML/Template.pm
-    version: 0
   DSL::HTML::Text:
     file: lib/DSL/HTML/Text.pm
-    version: 0
 requires:
   Carp: 0
   Devel::Declare::Parser: 0.017
@@ -49,8 +42,8 @@ requires:
   Scalar::Util: 0
   perl: v5.10.0
 resources:
-  bugtracker: http://github.com/exodist/Fennec/issues
-  homepage: http://exodist.github.io/Fennec/
+  bugtracker: http://github.com/exodist/DSL-HTML/issues
+  homepage: http://github.com/exodist/DSL-HTML
   license: http://dev.perl.org/licenses/
-  repository: http://github.com/exodist/Fennec
-version: 0.004
+  repository: http://github.com/exodist/DSL-HTML
+version: 0.005
