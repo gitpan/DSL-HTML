@@ -18,7 +18,7 @@ name: DSL-HTML
 provides:
   DSL::HTML:
     file: lib/DSL/HTML.pm
-    version: 0.005
+    version: 0.006
   DSL::HTML::Compiler:
     file: lib/DSL/HTML/Compiler.pm
   DSL::HTML::Parser:
@@ -46,4 +46,4 @@ resources:
   homepage: http://github.com/exodist/DSL-HTML
   license: http://dev.perl.org/licenses/
   repository: http://github.com/exodist/DSL-HTML
-version: 0.005
+version: 0.006

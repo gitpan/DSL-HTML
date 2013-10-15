@@ -41,7 +41,7 @@
    "provides" : {
       "DSL::HTML" : {
          "file" : "lib/DSL/HTML.pm",
-         "version" : "0.005"
+         "version" : "0.006"
       },
       "DSL::HTML::Compiler" : {
          "file" : "lib/DSL/HTML/Compiler.pm"
@@ -78,5 +78,5 @@
          "url" : "http://github.com/exodist/DSL-HTML"
       }
    },
-   "version" : "0.005"
+   "version" : "0.006"
 }
